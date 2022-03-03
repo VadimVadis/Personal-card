@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 align="center">{{ name_actors }}</h2>
+<div align="center"><img src="{{ url_for('static', filename='img/' + foto) }}" style="width:150px;height:250px;"></div>
+<h3 align="center">{{ specialization }} </h3>
+{% endblock %}
